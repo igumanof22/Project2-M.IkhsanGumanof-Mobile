@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity" >
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/judul"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtBahasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJudul"
+        android:text="@string/bahasa"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:layout_below="@id/txtBahasa" />
+
+    <CheckBox
+        android:id="@+id/cbPHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/php"
+        android:layout_below="@id/cbJava" />
+
+    <CheckBox
+        android:id="@+id/cbPerl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/perl"
+        android:layout_below="@id/cbPHP" />
+
+    <CheckBox
+        android:id="@+id/cbPhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phy"
+        android:layout_below="@id/cbPerl" />
+
+    <CheckBox
+        android:id="@+id/cbRub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rub"
+        android:layout_below="@id/cbPhy" />
+
+    <CheckBox
+        android:id="@+id/cbC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:layout_below="@id/cbRub" />
+
+    <TextView
+        android:id="@+id/txtSkill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cbC"
+        android:text="@string/skill"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtSkill"
+        android:layout_below="@id/cbC"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSkill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/proses"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</RelativeLayout>

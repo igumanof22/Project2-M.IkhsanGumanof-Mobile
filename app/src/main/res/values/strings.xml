@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Project2-M.IkhsanGumanof</string>
+    <string name="title">PEMBELIAN BARANG</string>
+    <string name="kode">Kode Barang</string>
+    <string name="inkode">input kode barang</string>
+    <string name="nama">Nama Barang</string>
+    <string name="innama">input nama barang</string>
+    <string name="jenis">Jenis Satuan</string>
+    <string name="kg">Kg</string>
+    <string name="kodi">Kodi</string>
+    <string name="saset">Sachet</string>
+    <string name="lusin">Lusin</string>
+    <string name="metode">Pembayaran</string>
+    <string-array name="cara">
+        <item>Cash on Delivery</item>
+        <item>Credit Card</item>
+        <item>ATM</item>
+    </string-array>
+    <string name="harga">Harga Satuan</string>
+    <string name="inharga">input harga satuan</string>
+    <string name="jumlah">Jumlah Beli</string>
+    <string name="injum">input jumlah beli</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next">NEXT</string>
+    <string name="cek">TRANSAKSI PEMBELIAN : </string>
+
+    <string name="judul">IT Skills</string>
+    <string name="bahasa">Programming Language</string>
+    <string name="java">Java</string>
+    <string name="php">PHP</string>
+    <string name="perl">Perl</string>
+    <string name="phy">Phyton</string>
+    <string name="rub">Ruby</string>
+    <string name="c">C</string>
+    <string name="skill">Skill</string>
+    <string-array name="skills">
+        <item>Basic</item>
+        <item>Intermidate</item>
+        <item>Advance</item>
+    </string-array>
+    <string name="proses">PROSES</string>
+</resources>
